@@ -1,0 +1,9 @@
+server:
+   port: 8093
+   error:
+      include-message: always
+      include-binding-erros: always
+spring:
+    data:
+       mongodb:
+            uri: mongodb+srv://admin:tSJKvHQlyhdcAFHh@cluster0.pwzlu.mongodb.net/bank?retryWrites=true&w=majority
